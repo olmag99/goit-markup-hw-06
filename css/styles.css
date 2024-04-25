@@ -78,6 +78,7 @@ li {
 
 .team-section {
     background-color: #F4F4FD;
+    height: 732px;
 }
 
 .team-section > li {
@@ -113,6 +114,7 @@ li {
 
 footer {
     background-color: #2E2F42;
+    height: 312px;
 }
 
 footer > p {
