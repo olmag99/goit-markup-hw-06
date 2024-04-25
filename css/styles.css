@@ -16,12 +16,12 @@ h2, h3, h4, h5, h6, {
     line-height: 24px;
 }
 
-p {
-    display: inline;
-}
-
 ul {
     list-style-type: none;
+    display: inline-block;
+}
+
+li {
     display: inline-block;
 }
 
@@ -47,6 +47,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    align-self: center;
 }
 
 .fucking-h1 {
