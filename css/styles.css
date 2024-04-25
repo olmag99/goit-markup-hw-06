@@ -10,7 +10,7 @@ body{
     align-content: center;
 }
 
-h2, h3, h4, h5, h6, {
+h2, h3, h4, h5, h6 {
     color: #2E2F42 ;
     font-size: 20px;
     font-weight: 500;
@@ -39,6 +39,9 @@ li {
 .h1-section {
     background-color: #2E2F42;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .h1-section > button {
@@ -60,6 +63,12 @@ li {
     align-self: center;
 }
 
+.qualities-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .qualities-list > li {
     box-sizing: border-box;
     height: 104px;
@@ -79,6 +88,9 @@ li {
 .team-section {
     background-color: #F4F4FD;
     height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-section > li {
@@ -95,6 +107,9 @@ li {
 .portfolio-section > ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-section > li {
