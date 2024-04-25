@@ -8,6 +8,7 @@ body{
     height: 3300px;
     width: 1440px;
     align-content: center;
+    color: #434455;
 }
 
 h2, h3, h4, h5, h6 {
@@ -127,11 +128,28 @@ li {
     width: 360px;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
     height: 312px;
+    
 }
 
-footer > p {
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-p {
     color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
