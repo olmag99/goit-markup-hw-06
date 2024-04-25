@@ -7,11 +7,13 @@ body{
     letter-spacing: 2%;
     height: 3300px;
     width: 1440px;
-    align-content: center;
 }
 
 h2, h3, h4, h5, h6, {
     color: #2E2F42 ;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 p {
@@ -34,20 +36,9 @@ ul {
     width: 100%;
 }
 
-.nav-list {
-    color:#2E2F42;
-    display: inline;
-}
-
-.nav-link {
-    color: #2E2F42;
-    display: inline-block;
-}
-
 .h1-section {
     background-color: #2E2F42;
     height: 600px;
-    width: 100%;
 }
 
 .h1-section > button {
@@ -80,7 +71,7 @@ ul {
     line-height: 24px;
 }
 
-.qualities-list > p {
+.qualities-list > li > p {
     color: #434455;
 }
 
