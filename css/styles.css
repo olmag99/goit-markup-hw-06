@@ -1,6 +1,5 @@
 body{
     background-color: #ffffff ;
-    width: max-content;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 24px;
@@ -17,12 +16,23 @@ li {
 }
 
 p {
-    font-weight: 400;
+    text-align: left;
+}
+
+.header {
+    height: 72px;
+    width: 100%;
+}
+
+.nav-link {
+    color: #2E2F42;
+    display: inline-block;
 }
 
 .h1-section {
     background-color: #2E2F42;
     height: 600px;
+    width: 100%;
 }
 
 .h1-section > button {
@@ -31,24 +41,26 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
 }
 
 .fucking-h1 {
     color: #ffffff;
+    width: 496px;
+    height: 120px;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 56px;
 }
 
-#team-section {
+.team-section {
     background-color: #F4F4FD;
 }
 
-.header {
-    height: 72px;
+.team-section > li > h3, p {
+    text-align: center;
 }
 
-.nav-link {
-    color: #2E2F42;
-    display: inline-block;
+.portfolio-section{
 }
 
 .qualities-list > p {
