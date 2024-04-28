@@ -217,7 +217,7 @@ ul, ol {
 
 .team-section-list-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -273,7 +273,6 @@ ul, ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-header {
@@ -282,6 +281,7 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-paragraph {
