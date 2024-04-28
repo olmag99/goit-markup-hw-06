@@ -104,6 +104,7 @@ h2, h3, h4, h5, h6 {
 
 .first-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .first-section > .first-button {
@@ -133,6 +134,10 @@ h2, h3, h4, h5, h6 {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+.qualities-section {
+    padding: 120px 0;
 }
 
 .qualities-list > li > h3 {
