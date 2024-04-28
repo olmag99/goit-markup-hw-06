@@ -15,12 +15,6 @@ h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-ul {
-    margin-left: auto;
-    margin-right: auto;
-    list-style-type: none;
-}
-
 .section-title {
     font-size: 36px;
     font-weight: 700;
@@ -109,10 +103,6 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.qualities-list > li {
-    margin: 0 auto;
-}
-
 .qualities-list > li > h3 {
     font-size: 20px;
     font-weight: 500;
@@ -145,14 +135,10 @@ ul {
 
 .team-section > li {
     background-color: #FFFFFF;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .portfolio-section > li {
     background-color: #E7E9FC;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .team-section-title {
@@ -166,8 +152,6 @@ ul {
 
 .team-section-list-item {
     background-color: #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
@@ -208,6 +192,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 .footer {
