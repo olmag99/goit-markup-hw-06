@@ -210,7 +210,7 @@ ul, ol {
     margin-bottom: 72px;
 }
 
-.team-section-list {
+.team-list {
     display: flex;
     gap: 24px;
 }
