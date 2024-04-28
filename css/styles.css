@@ -25,6 +25,10 @@ img {
     display: block;
 }
 
+ul, ol {
+    list-style-type: none;
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
