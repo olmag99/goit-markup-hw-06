@@ -21,6 +21,10 @@ h2, h3, h4, h5, h6 {
     line-height: 40px;
 }
 
+img {
+    display: block;
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -234,6 +238,7 @@ h2, h3, h4, h5, h6 {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0
 }
 
 .footer-logo {
