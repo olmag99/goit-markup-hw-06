@@ -39,13 +39,10 @@ ul, ol {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-div {
+.header-div-container {
     display: flex;
     flex-direction: row;
-}
-
-.header-div-container {
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 .container {
