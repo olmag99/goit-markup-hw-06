@@ -42,8 +42,6 @@ ul, ol {
 .header-div-container {
     display: flex;
     flex-direction: row;
-    padding: 0 9%;
-    justify-content: center;
 }
 
 .container {
