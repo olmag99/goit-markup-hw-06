@@ -44,6 +44,10 @@ ul, ol {
     flex-direction: row;
 }
 
+.header-div-container {
+    align-content: space-between;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
