@@ -622,7 +622,7 @@ svg>.social-media-link {
     margin-left: 16px;
 }
 
-.overlay-window-div-1 {
+.overlay-window-div-first {
     position: fixed;
     top: 0;
     left: 0;
@@ -632,7 +632,7 @@ svg>.social-media-link {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-window-div-2 {
+.overlay-window-div-second {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -645,6 +645,7 @@ svg>.social-media-link {
         0px 2px 1px rgba(0, 0, 0, 0.2);;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .overlay-window-button {
@@ -668,10 +669,21 @@ svg>.social-media-link {
 .overlay-window-button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .overlay-window-button-svg {
     width: 8;
     height: 8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-window-first-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 16px;
 }
