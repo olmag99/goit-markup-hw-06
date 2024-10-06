@@ -672,7 +672,7 @@ svg>.social-media-link {
     fill: #ffffff;
 }
 
-.overlay-window-button-svg {
+.overlay-button-svg {
     width: 8;
     height: 8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -686,4 +686,17 @@ svg>.social-media-link {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 16px;
+}
+
+.user-name-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.user-name-div {
+    position: relative;
 }
