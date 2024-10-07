@@ -766,3 +766,13 @@ svg>.social-media-link {
     justify-content: center;
     fill: transparent;
 }
+
+.user-name-input:checked .upl-span{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.upl-span-link {
+    color: #4d5ae5;
+}
