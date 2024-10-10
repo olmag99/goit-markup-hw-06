@@ -767,7 +767,7 @@ svg>.social-media-link {
     fill: transparent;
 }
 
-.user-name-input:checked ~ .upl-span{
+.user-name-input:checked + .upl-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
